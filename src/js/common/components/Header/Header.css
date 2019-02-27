@@ -1,0 +1,28 @@
+@import "../../../../style/configs/color";
+
+.modalHeader {
+  align-items: center;
+  background: $color-header-bg;
+  display: flex;
+  justify-content: space-between;
+}
+.modalBackButton {
+  color: $color-white;
+  height: 100%;
+  width: 30px;
+}
+.homeHeader {
+  align-items: center;
+  background-image: url('/src/assets/images/home-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 30vh;
+  justify-content: space-around;
+  min-height: 200px;
+  width: 100%;
+  img {
+    width: 150px;
+  }
+}

@@ -1,0 +1,14 @@
+.modal {
+ display: flex;
+ flex-direction: column;
+ .modalName {
+   text-align: center;
+ }
+ .modalImage {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+ }
+}
